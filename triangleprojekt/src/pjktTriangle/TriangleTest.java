@@ -45,8 +45,12 @@ public class TriangleTest {
 
 	@Test
 	public void testHypotenuse() {
-		fail("Not yet implemented");
+		Triangle t = new Triangle();
+		assertEquals(5.0 , t.hypotenuse (3.0 , 4.0) , DELTA);
+		System.out.println(5.0 == t.hypotenuse(3.0 , 4.0));
+		
 	}
+	
 
 	@Test
 	public void testWinkel() {
