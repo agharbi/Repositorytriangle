@@ -3,6 +3,11 @@ package pjktTriangle;
 //Klasse Triangle erstellen
 
 public class Triangle {
+	//add Methode berechnet die Flaeche
+    public static double flaeche () {
+   		return 0;
+    }
+
 
 	/**
 	 * @param args
