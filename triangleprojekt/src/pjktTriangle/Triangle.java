@@ -10,9 +10,10 @@ public class Triangle {
 }
     
     //Methode berechnet die Hypotenuse
-    public static double hypotenuse () {
-	    return 0;
-    }
+    public static double hypotenuse (double kathetea , double katheteb) {
+     	double h = Math.sqrt(kathetea * kathetea + katheteb * katheteb);
+        return h;
+         }
     
   	//Methode berechnet der winkle, parameter alpha ist bekannt, 
     //ein rechtwinkliges Dreieck besitzt einen 90°
