@@ -21,7 +21,6 @@ public class TriangleTest {
 //@AfterClass
 //  public static void tearDownAfterClass() throws Exception {
 //		Triangle t = new Triangle();
-
 //	}
 
 	@Before
@@ -34,10 +33,12 @@ public class TriangleTest {
 		t = null;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Test
 	public void testFlaeche() {
-		//fail("Not yet implemented");
-	}
+		double s = t.flaeche(3 , 4);
+		 assertEquals(6 , s);
+     }
 
 	@Test
 	public void testHypotenuse() {
