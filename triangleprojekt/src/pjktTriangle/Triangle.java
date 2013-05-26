@@ -12,7 +12,12 @@ public class Triangle {
     public static double hypotenuse () {
 	    return 0;
     }
-
+    
+  	//Methode berechnet der winkle, parameter alpha ist bekannt, 
+    //ein rechtwinkliges Dreieck besitzt einen 90°
+     public static double winkel () {
+ 	    return 0;
+     }
 
 
 	/**
