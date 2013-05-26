@@ -4,9 +4,10 @@ package pjktTriangle;
 
 public class Triangle {
 	//add Methode berechnet die Flaeche
-    public static double flaeche () {
-   		return 0;
-    }
+	public static double flaeche (double kathetea , double katheteb) {
+	    double s = (kathetea * katheteb) / 2;
+	    return s;
+}
     
     //Methode berechnet die Hypotenuse
     public static double hypotenuse () {
