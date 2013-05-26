@@ -7,6 +7,12 @@ public class Triangle {
     public static double flaeche () {
    		return 0;
     }
+    
+    //Methode berechnet die Hypotenuse
+    public static double hypotenuse () {
+	    return 0;
+    }
+
 
 
 	/**
