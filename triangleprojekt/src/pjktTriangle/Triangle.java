@@ -17,10 +17,10 @@ public class Triangle {
     
   	//Methode berechnet der winkle, parameter alpha ist bekannt, 
     //ein rechtwinkliges Dreieck besitzt einen 90°
-     public static double winkel () {
- 	    return 0;
-     }
-
+     public static double winkel (double alpha) {
+ 	 	    double w = 180 - 90 - alpha;
+ 	 	    return w;
+ 	     }   
 
 	/**
 	 * @param args
