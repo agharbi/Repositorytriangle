@@ -18,24 +18,24 @@ public class TriangleTest {
 	private static final double DELTA = 1e-15; 
 	
 
-@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
+//@AfterClass
+//  public static void tearDownAfterClass() throws Exception {
+//		Triangle t = new Triangle();
+
+//	}
 
 	@Before
 	public void setUp() throws Exception {
+		Triangle t = new Triangle();
 	}
 
 	@After
 	public void tearDown() throws Exception {
+		t = null;
 	}
 
 	@Test
-	public void testFlaeche(double kathetea , double katheteb) {
-		double f1 = Triangle.flaeche(kathetea, katheteb); 
-		System.out.println("flaeche: " + f1);
-		assertEquals(f1 , 2.4 , DELTA);
-
+	public void testFlaeche() {
 		//fail("Not yet implemented");
 	}
 
