@@ -54,7 +54,9 @@ public class TriangleTest {
 
 	@Test
 	public void testWinkel() {
-		fail("Not yet implemented");
+		Triangle t = new Triangle();
+		assertEquals(45.0 , t.winkel(45.0) , DELTA);
+		System.out.println(45.0 == t.winkel(45.0));
 	}
 
 }
