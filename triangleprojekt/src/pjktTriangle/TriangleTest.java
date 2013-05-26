@@ -1,6 +1,9 @@
 package pjktTriangle;
 
 import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
+
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -32,12 +35,12 @@ public class TriangleTest {
 	public void tearDown() throws Exception {
 		t = null;
 	}
-
-	@SuppressWarnings("deprecation")
+	
 	@Test
 	public void testFlaeche() {
-		double s = t.flaeche(3 , 4);
-		 assertEquals(6 , s);
+		Triangle t = new Triangle();
+		assertEquals(6.0 , t.flaeche (3.0 , 4.0) , DELTA);
+		System.out.println(6.0 == t.flaeche(3.0 , 4.0));
      }
 
 	@Test
